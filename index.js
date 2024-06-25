@@ -127,15 +127,9 @@ const setCardHeading = (data) => {
    const paragraph = document.getElementsByClassName("paragraph");
 
 
-  // const asset_desc = document.getElementById("asset_desc"); 
-  // const video = document.getElementById("video");
-
-     app_heading[0].innerHTML = data.tasks[0].assets[0].asset_title;
+      app_heading[0].innerHTML = data.tasks[0].assets[0].asset_title;
      app_heading2[0].innerHTML = data.tasks[0].task_title;
      paragraph[0].innerHTML = data.tasks[0].task_description;
-
-
-  //      asset_desc.innerHTML = data.tasks[0].assets[0].asset_description;
 
 
   let html = "";
